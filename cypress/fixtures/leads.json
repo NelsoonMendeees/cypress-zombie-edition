@@ -1,0 +1,51 @@
+{
+  "create": {
+    "data": {
+      "name": "Nelson Mendes",
+      "email": "nelson.mendes@qa.com"
+    },
+    "validate": "Agradecemos por compartilhar seus dados conosco. Em breve, nossa equipe entrará em contato."
+  },
+  "duplicate": {
+    "data": {
+      "name": "Lead Duplicate",
+      "email": "lead.duplicate@qa.com"
+    },
+    "validate": "Verificamos que o endereço de e-mail fornecido já consta em nossa lista de espera. Isso significa que você está um passo mais perto de aproveitar nossos serviços."
+  },
+  "invalidEmail": {
+    "data": {
+      "name": "User Invalid Email",
+      "email": "email.invalid.comn.br"
+    },
+    "validate": "Email incorreto"
+  },
+  "nullLead": {
+    "data": {
+      "name": "",
+      "email": ""
+    },
+    "validate": ["Campo obrigatório", "Campo obrigatório"]
+  },
+  "nullLeadName": {
+    "data": {
+      "name": "",
+      "email": "null.name@lead.com"
+    },
+    "validate": "Campo obrigatório"
+  },
+  "nullLeadEmail": {
+    "data": {
+      "name": "Lead Email Null",
+      "email": ""
+    },
+    "validate": "Campo obrigatório"
+  },
+  "invalidData": {
+    "data": {
+      "name": "",
+      "email": "email.invalid.comn.br"
+    },
+    "validate": ["Campo obrigatório", "Email incorreto"]
+  }
+}

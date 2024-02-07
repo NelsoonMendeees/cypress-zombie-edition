@@ -1,0 +1,8 @@
+.DS_Store
+cypress/results/*
+allure-report/*
+allure-results/*
+node_modules/
+temp/
+.vscode/*
+.env
