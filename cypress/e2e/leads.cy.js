@@ -25,7 +25,7 @@ describe('Leads', () => {
     component.popupContainText(payload.validate)
   })
 
-  it('Não deve cadastrar com email incorreto', () => {
+  it('Não deve cadastrar um novo lead com email incorreto', () => {
     const payload = data.invalidEmail
     leads.go()
     leads.fillAndSubmitForm(payload.data)
